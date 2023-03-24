@@ -8,6 +8,7 @@ import Portfolio from './components/pages/Portfolio';
 import Experience from './components/pages/Experience';
 import Service from './components/pages/Services';
 import Contact from './components/pages/Contact';
+import { Resume } from './components/pages/Resume';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="service" element={<Service />} />
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
+          <Route path='resume' element ={<Resume />} />
         </Routes>
         </div>
         <Footer />
