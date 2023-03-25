@@ -5,5 +5,5 @@ export default defineConfig(
     {
         plugins: [react(),],
         hot: true,
-        base:'/react-portfolio/'
+        base:'/React-Portfolio/'
     });
